@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.mid-container {
+    width: 30%;
+}
+
+.heading {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.add-tasks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+.task {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task label {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.task input {
+    font-size: 18px;
+    width: 70%;
+    padding: 6px 10px;
+    border-radius: 10px;
+}
+
+.task textarea {
+    font-size: 18px;
+    width: 70%;
+    padding: 6px 10px;
+    border-radius: 10px;
+}
+
+#add-btn {
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.todo-container{
+    margin-top: 20px;
+    width: 100%;
+}
+.no-tasks{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.todo-parent-div{
+    display: flex;
+    flex-direction: column;
+    gap : 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.todo-div{
+    font-size : 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.desc-div{
+    font-size : 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.todo-header{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.todoContainer-btns{
+    padding: 10px 0;
+    font-size: 1rem;
+    cursor: pointer;
+}
